@@ -1,0 +1,252 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4FEC486B1CA72F3F0079D6DF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FEC486A1CA72F3F0079D6DF /* main.cpp */; };
+		4FEC48731CA72F6A0079D6DF /* DupCharCheck.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FEC48711CA72F6A0079D6DF /* DupCharCheck.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4FEC48651CA72F3F0079D6DF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4FEC48671CA72F3F0079D6DF /* 01.FindDupInString */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 01.FindDupInString; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FEC486A1CA72F3F0079D6DF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4FEC48711CA72F6A0079D6DF /* DupCharCheck.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DupCharCheck.cpp; sourceTree = "<group>"; };
+		4FEC48721CA72F6A0079D6DF /* DupCharCheck.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = DupCharCheck.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FEC48641CA72F3F0079D6DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FEC485E1CA72F3F0079D6DF = {
+			isa = PBXGroup;
+			children = (
+				4FEC48691CA72F3F0079D6DF /* 01.FindDupInString */,
+				4FEC48681CA72F3F0079D6DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4FEC48681CA72F3F0079D6DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FEC48671CA72F3F0079D6DF /* 01.FindDupInString */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4FEC48691CA72F3F0079D6DF /* 01.FindDupInString */ = {
+			isa = PBXGroup;
+			children = (
+				4FEC48711CA72F6A0079D6DF /* DupCharCheck.cpp */,
+				4FEC48721CA72F6A0079D6DF /* DupCharCheck.hpp */,
+				4FEC486A1CA72F3F0079D6DF /* main.cpp */,
+			);
+			path = 01.FindDupInString;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4FEC48661CA72F3F0079D6DF /* 01.FindDupInString */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FEC486E1CA72F3F0079D6DF /* Build configuration list for PBXNativeTarget "01.FindDupInString" */;
+			buildPhases = (
+				4FEC48631CA72F3F0079D6DF /* Sources */,
+				4FEC48641CA72F3F0079D6DF /* Frameworks */,
+				4FEC48651CA72F3F0079D6DF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 01.FindDupInString;
+			productName = 01.FindDupInString;
+			productReference = 4FEC48671CA72F3F0079D6DF /* 01.FindDupInString */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4FEC485F1CA72F3F0079D6DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "John Kao";
+				TargetAttributes = {
+					4FEC48661CA72F3F0079D6DF = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 4FEC48621CA72F3F0079D6DF /* Build configuration list for PBXProject "01.FindDupInString" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4FEC485E1CA72F3F0079D6DF;
+			productRefGroup = 4FEC48681CA72F3F0079D6DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FEC48661CA72F3F0079D6DF /* 01.FindDupInString */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4FEC48631CA72F3F0079D6DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FEC48731CA72F6A0079D6DF /* DupCharCheck.cpp in Sources */,
+				4FEC486B1CA72F3F0079D6DF /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4FEC486C1CA72F3F0079D6DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4FEC486D1CA72F3F0079D6DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4FEC486F1CA72F3F0079D6DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4FEC48701CA72F3F0079D6DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4FEC48621CA72F3F0079D6DF /* Build configuration list for PBXProject "01.FindDupInString" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FEC486C1CA72F3F0079D6DF /* Debug */,
+				4FEC486D1CA72F3F0079D6DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FEC486E1CA72F3F0079D6DF /* Build configuration list for PBXNativeTarget "01.FindDupInString" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FEC486F1CA72F3F0079D6DF /* Debug */,
+				4FEC48701CA72F3F0079D6DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4FEC485F1CA72F3F0079D6DF /* Project object */;
+}

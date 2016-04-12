@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:01.FindDupInString/01.FindDupInString.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:02.ReverseString/02.ReverseString.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:03.CheckStringsArePermutation/03.CheckStringsArePermutation.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:04.ReplaceSpace/04.ReplaceSpace.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:05.EncodeString/05.EncodeString.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:06.RotateMatrix/06.RotateMatrix.xcodeproj">
+   </FileRef>
+</Workspace>
